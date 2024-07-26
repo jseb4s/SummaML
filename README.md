@@ -4,6 +4,7 @@
 Este repositorio contiene el código y los archivos necesarios para realizar el pronóstico de la demanda de Cementos Argos y un modelo de clasificación expuesto a través de un API. El proyecto está dividido en varias partes que incluyen la creación de modelos predictivos, la exposición de un servicio API y la generación de resultados.
 
 /project-root
+
 ├── data/
 │ ├── to_predict.csv
 │ └── ... (otros archivos de datos, si los hay)
