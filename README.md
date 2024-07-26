@@ -76,20 +76,20 @@ Las respuestas teóricas se encuentran en el archivo teoria_.pdf.
 
 ### 5. Instrucciones Adicionales
 
-Notebooks: 
-models.ipynb: Contiene el código y análisis para el modelo SARIMA utilizado en el pronóstico de la demanda. Además, incluye el código para el modelo de clasificación.
+___Notebooks:___ 
+- models.ipynb: Contiene el código y análisis para el modelo SARIMA utilizado en el pronóstico de la demanda. Además, incluye el código para el modelo de clasificación.
 
-Scripts:
-main.py: Script principal para ejecutar el servicio API que consume el modelo de clasificación.
-test_api.py: Script para probar el API, enviando solicitudes POST y mostrando las respuestas.
+___Scripts:___
+- main.py: Script principal para ejecutar el servicio API que consume el modelo de clasificación.
+- test_api.py: Script para probar el API, enviando solicitudes POST y mostrando las respuestas.
 
-Archivos de Datos:
+___Archivos de datos:___
 - to_predict.csv: Archivo CSV con los datos a ser pronosticados.
 - dataset_demand_acumulate.csv: Archivo CSV que contiene la información de la demanda entre el 2017-01 hasta el 2022-04 (año-mes).
 - dataset_alpha_betha.csv: Archivo CSV que contiene la información de todas las variables involucradas para realizar la clasificación 
 de si un registro es Alpha o Betha, este cuenta con más de 7000 registros.
 
-Resultados:
-demanda_pronosticada.csv: Archivo con los pronósticos generados por el modelo SARIMA.
-métricas_modelo.txt: Archivo de texto con las métricas del modelo de clasificación.
+___Resultados:___
+- demanda_pronosticada.csv: Archivo con los pronósticos generados por el modelo SARIMA.
+- métricas_modelo.txt: Archivo de texto con las métricas del modelo de clasificación.
 
