@@ -48,7 +48,7 @@ python scripts/main.py
 ```bash
 python scripts/test_api.py
 
-Teoría
+### 4. Teoría
 Las respuestas teóricas se encuentran en el archivo teoria_.pdf.
 
 Instrucciones Adicionales
