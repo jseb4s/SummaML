@@ -13,15 +13,18 @@ Este repositorio contiene el código y los archivos necesarios para realizar el 
 
 │ └── dataset_demand_acumulate.csv
 
+
 ├── models/
 
 │ ├── preprocessor.pkl
 
 │ └── classification_model.pkl
 
+
 ├── notebooks/
 
 │ └── models.ipynb
+
 
 ├── scripts/
 
@@ -29,11 +32,13 @@ Este repositorio contiene el código y los archivos necesarios para realizar el 
 
 │ └── test_api.py
 
+
 ├── results/
 
 │ ├── classification_metrics.json
 
 │ └── prediction_results.csv
+
 
 ├── requirements.txt
 
