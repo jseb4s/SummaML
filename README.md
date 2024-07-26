@@ -84,9 +84,9 @@ main.py: Script principal para ejecutar el servicio API que consume el modelo de
 test_api.py: Script para probar el API, enviando solicitudes POST y mostrando las respuestas.
 
 Archivos de Datos:
-to_predict.csv: Archivo CSV con los datos a ser pronosticados.
-dataset_demand_acumulate.csv: Archivo CSV que contiene la información de la demanda entre el 2017-01 hasta el 2022-04 (año-mes).
-dataset_alpha_betha.csv: Archivo CSV que contiene la información de todas las variables involucradas para realizar la clasificación 
+- to_predict.csv: Archivo CSV con los datos a ser pronosticados.
+- dataset_demand_acumulate.csv: Archivo CSV que contiene la información de la demanda entre el 2017-01 hasta el 2022-04 (año-mes).
+- dataset_alpha_betha.csv: Archivo CSV que contiene la información de todas las variables involucradas para realizar la clasificación 
 de si un registro es Alpha o Betha, este cuenta con más de 7000 registros.
 
 Resultados:
