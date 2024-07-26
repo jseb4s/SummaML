@@ -7,20 +7,27 @@ Este repositorio contiene el código y los archivos necesarios para realizar el 
 ├── data/
 │ ├── to_predict.csv
 │ └── ... (otros archivos de datos, si los hay)
+
 ├── models/
 │ └── modelo_entrenado.pkl
+
 ├── notebooks/
 │ ├── sarima.ipynb
 │ └── clasificacion.ipynb
+
 ├── scripts/
 │ ├── main.py
 │ └── test_api.py
+
 ├── results/
 │ ├── resultados_servicio.json
 │ ├── métricas_modelo.txt
 │ └── demanda_pronosticada.csv
+
 ├── requirements.txt
+
 ├── README.md
+
 └── teoria_.pdf
 
 ## Requisitos
