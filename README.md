@@ -41,11 +41,9 @@ Abrir y ejecutar el notebook models.ipynb en la carpeta notebooks/. Allí se enc
 
 ### 2. Servicio API
 Para ejecutar el servicio API:
-```bash
 python scripts/main.py
 
 ### 3. Probar API:
-```bash
 python scripts/test_api.py
 
 ### 4. Teoría
