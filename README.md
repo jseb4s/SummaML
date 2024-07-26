@@ -32,13 +32,15 @@ Este repositorio contiene el código y los archivos necesarios para realizar el 
 
 ## Uso
 1. Pronóstico de Demanda
-Abrir y ejecutar el notebook sarima.ipynb en la carpeta notebooks/.
-Esto generará el archivo con los pronósticos en results/demanda_pronosticada.csv.
-2. Clasificación
+Abrir y ejecutar el notebook models.ipynb en la carpeta notebooks/. Allí se encuentra todo el proceso de cargue de datos para los modelos de pronóstico y clasificación. Las salidas de este notebook son:
+- Archivo con las métricas de clasificación.
+- Archivo con los resultados
+Esto generará el archivo con los pronósticos en results/prediction_results.csv.
+3. Clasificación
 Abrir y ejecutar el notebook clasificacion.ipynb en la carpeta notebooks/.
 Esto generará el archivo del modelo entrenado en models/modelo_entrenado.pkl y las métricas en results/métricas_modelo.txt.
 
-3. Servicio API
+4. Servicio API
 Para ejecutar el servicio API:
 python scripts/main.py
 
