@@ -9,17 +9,19 @@ Este repositorio contiene el código y los archivos necesarios para realizar el 
 
 │ ├── to_predict.csv
 
-│ └── ... (otros archivos de datos, si los hay)
+│ ├── dataset_alpha_betha.csv
+
+│ └── dataset_demand_acumulate.csv
 
 ├── models/
 
-│ └── modelo_entrenado.pkl
+│ ├── preprocessor.pkl
+
+│ └── classification_model.pkl
 
 ├── notebooks/
 
-│ ├── sarima.ipynb
-
-│ └── clasificacion.ipynb
+│ └── models.ipynb
 
 ├── scripts/
 
@@ -29,13 +31,13 @@ Este repositorio contiene el código y los archivos necesarios para realizar el 
 
 ├── results/
 
-│ ├── resultados_servicio.json
+│ ├── classification_metrics.json
 
-│ ├── métricas_modelo.txt
-
-│ └── demanda_pronosticada.csv
+│ └── prediction_results.csv
 
 ├── requirements.txt
+
+├── .gitignore
 
 ├── README.md
 
