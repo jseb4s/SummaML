@@ -31,7 +31,7 @@ Este repositorio contiene el código y los archivos necesarios para realizar el 
   pip install -r requirements.txt
 
 ## Uso
-1. Pronóstico de Demanda y Clasificación
+### 1. Pronóstico de Demanda y Clasificación
 Abrir y ejecutar el notebook models.ipynb en la carpeta notebooks/. Allí se encuentra todo el proceso de cargue de datos para los modelos de pronóstico y clasificación. Las salidas de este notebook son:
 - Archivo con las métricas de clasificación: results/classification_metrics.txt.
 - Archivo con los resultados de clasificación: results/prediction_results.csv.
@@ -39,11 +39,13 @@ Abrir y ejecutar el notebook models.ipynb en la carpeta notebooks/. Allí se enc
 - Preprocesamiento modelo de clasificiación: models/preprocessor.pkl
 
 
-4. Servicio API
+### 2. Servicio API
 Para ejecutar el servicio API:
+```bash
 python scripts/main.py
 
-Para probar API:
+### 3. Probar API:
+```bash
 python scripts/test_api.py
 
 Teoría
